@@ -5,6 +5,7 @@ Ik wil dit project halen omdat ik wil bewijzen dat ik genoeg kan developen om mi
 Voor nu ben ik (Danny) de enige die aan dit project werkt.
 
 -week 1-
+
 In week in heb ik een begin gemaakt van mijn bank applicatie ( een beetje van HTML, CSS en Javascript)
 
 -week 2-
