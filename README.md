@@ -1,6 +1,6 @@
 # Project-Periode-2
 Hier post ik de updates van mijn project periode
 
-Als Developer wil ik mijn developing skills verbeteren, zodat ik mijn diploma kan halen en later en goede baan kan vinden.
+Ik wil dit project halen omdat ik wil bewijzen dat ik genoeg kan developen om mijn diploma opgeven moment te halen.
 
-Voor nu ben ik (Danny) de enige die aan dit project werkt
+Voor nu ben ik (Danny) de enige die aan dit project werkt.
