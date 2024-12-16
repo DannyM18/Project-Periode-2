@@ -1,8 +1,7 @@
 # Project-Periode-2
 Hier post ik de updates van mijn project periode
 
-Ik wil dit project halen omdat ik wil bewijzen dat ik genoeg kan developen om mijn diploma opgeven moment te halen.
-Voor nu ben ik (Danny) de enige die aan dit project werkt.
+Als developer wil ik een bankapp maken zodat ik het wat makkelijker kan maken voor de users om extra rekeningen aan te maken.
 
 -week 1-
 
