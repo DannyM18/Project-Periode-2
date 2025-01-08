@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bank Applicatie</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1 class="banknaam">Danny's Bank</h1>
+    </header>
+
+    <main>
+        
+        <section id="login-section">
+            <h2>Inloggen</h2>
+            <form id="login-form">
+                <label for="username">Gebruikersnaam:</label>
+                <input type="text" id="username" placeholder="Voer uw gebruikersnaam in" required>
+                <label for="password">Wachtwoord:</label>
+                <input type="password" id="password" placeholder="Voer uw wachtwoord in" required>
+                <button type="submit">Login</button>
+            </form>
+        </section>
+
+        <nav class="navbar">
+          <ul>
+            <li><a href="index.html">Overzicht</a></li>
+            <li><a href="overschrijven.html">OverSchrijven</a></li>
+            <li><a href="#">TransactieGeschiedenis</a></li>
+          </ul>
+        </nav> 
+
+        <section id="dashboard">
+  <div class="dashboard-container">
+    <h1>Rekeningbeheer Dashboard</h1>
+    <h2>Uw Rekeningen</h2>
+    <div id="accounts">
+      <div class="account">
+        <span class="account-name">Betaalrekening</span>
+        <span class="account-balance">€1500.00</span>
+      </div>
+      <div class="account">
+        <span class="account-name">Spaarrekening</span>
+        <span class="account-balance">€3000.00</span>
+      </div>
+    </div>
+    <button id="addAccountBtn">Nieuwe Rekening Aanmaken</button>
+  </div>
+        </section>        
+    </main>
+
+    <script src="java.js"></script>
+</body>
+</html>
