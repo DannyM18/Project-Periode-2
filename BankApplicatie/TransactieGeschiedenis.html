@@ -3,12 +3,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TransactieGeschiedenis</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Transactiegeschiedenis</title>
+    <link rel="stylesheet" href="styletransactie.css">
 </head>
 <body>
+
   <header>
-    <h1 class="banknaam">Danny's Bank</h1>
+    <h1>Transactiegeschiedenis</h1>
   </header>
+
+    <div class="container">
+        <div class="filters">
+            <label for="type">Filter op type:</label>
+            <select id="type">
+                <option value="alle">Alle</option>
+                <option value="inkomend">Inkomend</option>
+                <option value="uitgaand">Uitgaand</option>
+            </select>
+
+            <label for="date">Filter op datum:</label>
+            <input type="date" id="date">
+
+            <button onclick="filterTransacties()">Filteren</button>
+        </div>
+        <div id="transacties">
+            <div class="transactie" data-type="inkomend" data-datum="2024-11-01">
+                <p><strong>Type:</strong> inkomend</p>
+                <p><strong>Datum:</strong> 2024-11-01</p>
+                <p><strong>Bedrag:</strong> €150.00</p>
+            </div>
+            <div class="transactie" data-type="uitgaand" data-datum="2024-11-03">
+                <p><strong>Type:</strong> uitgaand</p>
+                <p><strong>Datum:</strong> 2024-11-03</p>
+                <p><strong>Bedrag:</strong> €-50.00</p>
+            </div>
+            <div class="transactie" data-type="inkomend" data-datum="2024-11-05">
+                <p><strong>Type:</strong> inkomend</p>
+                <p><strong>Datum:</strong> 2024-11-05</p>
+                <p><strong>Bedrag:</strong> €200.00</p>
+            </div>
+            <div class="transactie" data-type="uitgaand" data-datum="2024-11-10">
+                <p><strong>Type:</strong> uitgaand</p>
+                <p><strong>Datum:</strong> 2024-11-10</p>
+                <p><strong>Bedrag:</strong> €-30.00</p>
+            </div>
+        </div>
+    </div>
+    <script src="java.js"></script>
 </body>
 </html>

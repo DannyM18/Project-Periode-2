@@ -155,9 +155,6 @@ form button:hover {
     cursor: pointer;
   }
   
-  button:hover {
-    background-color: black;
-  }
   
   .success-message {
     color: green;
@@ -172,4 +169,3 @@ form button:hover {
     text-align: center;
     margin-top: 10px;
   }
-  

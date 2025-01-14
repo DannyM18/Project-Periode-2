@@ -73,4 +73,23 @@ document.getElementById('addAccountBtn').addEventListener('click', () => {
     messageElement.className = "success-message";
   });
   
-  
+  //transactiegeschiedenis
+  function filterTransacties() {
+    const typeFilter = document.getElementById("type").value;
+    const dateFilter = document.getElementById("date").value;
+    const transacties = document.querySelectorAll(".transactie");
+
+    transacties.forEach(transactie => {
+        const type = transactie.getAttribute("data-type");
+        const datum = transactie.getAttribute("data-datum");
+
+        let typeMatch = typeFilter === "alle" || type === typeFilter;
+        let dateMatch = !dateFilter || datum === dateFilter;
+
+        if (typeMatch && dateMatch) {
+            transactie.style.display = "block";
+        } else {
+            transactie.style.display = "none";
+        }
+    });
+}
